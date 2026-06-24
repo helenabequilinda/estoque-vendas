@@ -3,7 +3,7 @@
 Projeto desenvolvido para o P.I.
 
 ## Equipe
-Helena Pangussat Bequi 
+Helena P. Bequi 
 
 ## Objetivo
 Criar um sistema para gerenciamento de estoque e vendas de lojas de roupas.
