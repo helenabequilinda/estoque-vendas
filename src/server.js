@@ -3,12 +3,10 @@ const app = express();
 
 app.use(express.json());
 
-const produtosRoutes = require('./routes/produtos.routes');
+const produtosRoutes = require('./routes/produtos');
 
-app.use('/api', produtosRoutes);
+app.use('/', produtosRoutes);
 
-const PORT = 3000;
-
-app.listen(PORT, () => {
-  console.log(`Servidor rodando na porta ${PORT}`);
+app.listen(3000, () => {
+  console.log('Servidor rodando na porta 3000');
 });
